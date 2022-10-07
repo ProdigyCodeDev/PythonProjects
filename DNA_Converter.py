@@ -1,8 +1,6 @@
 import Bio.Data.CodonTable
 from Bio.Seq import Seq
 
-
-
 def complementary_conversion():
     x = input("Please enter DNA :  ")
     my_seq = Seq(x)
@@ -50,12 +48,6 @@ def chart():
         stop_codon3 = codons.count('UAA')
         total_stop = (stop_codon1 + stop_codon2 + stop_codon3)
         print(total_stop)
-
-
-
-
-
-
 
 def repeat():
     answer = input("Repeat y/n:  ")
